@@ -3,7 +3,7 @@ name: "devcontainer-with-dockercompose-test-compose-stack3"
 services:
   app:
     image: "ruby:3.2.5"
-    command: tail -f /dev/null
+    command: "tail -f /dev/null"
     networks:
       - custom_network
 
